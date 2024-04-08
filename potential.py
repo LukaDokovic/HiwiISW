@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 
 
+
 image_path = '/home/lukadokovic/workspace/HiwiISW/2_10-reo.png'
 image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 
