@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image_path = '/home/lukadokovic/workspace/HiwiISW/2_10-reo.png'
+image_path = './2_10-reo.png'
 image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 
 if image is None:
@@ -22,7 +22,7 @@ def crop_image(img, edge_dist):
 cropped_image = crop_image(image, edge_distance)
 
 # Speichere das beschnittene Bild (optional)
-cv2.imwrite('/home/lukadokovic/workspace/HiwiISW/2_10-reo_cropped.png', cropped_image)
+cv2.imwrite('./2_10-reo_cropped.png', cropped_image)
 
 # Zeige das Original- und das beschnittene Bild an (optional)
 cv2.imshow("Original Image", image)
