@@ -1,7 +1,3 @@
-import torch
-print(torch.__version__)
-
-
 from ultralytics import YOLO
 
 # Load a model
