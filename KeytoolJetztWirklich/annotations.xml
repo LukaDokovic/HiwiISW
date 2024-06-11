@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>730967</id>
+      <name>keytool-keypoint-detection-task</name>
+      <size>5</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2024-06-10 13:45:29.662617+00:00</created>
+      <updated>2024-06-10 13:49:20.461925+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>4</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>943665</id>
+          <start>0</start>
+          <stop>4</stop>
+          <url>https://app.cvat.ai/api/jobs/941838</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>luka61</username>
+        <email>dokovic68@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>keytool</name>
+          <color>#dfbeb9</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2024-06-10 13:50:39.153430+00:00</dumped>
+  </meta>
+  <image id="0" name="testimage120.jpg" width="2496" height="2496">
+    <box label="keytool" source="manual" occluded="0" xtl="952.48" ytl="578.08" xbr="1810.75" ybr="2469.78" z_order="0">
+    </box>
+    <points label="keytool" source="manual" occluded="0" points="1232.73,2110.71;1307.17,1081.65" z_order="0">
+    </points>
+  </image>
+  <image id="1" name="testimage130.jpg" width="2496" height="2496">
+    <points label="keytool" source="manual" occluded="0" points="759.80,1812.94;908.69,753.23" z_order="0">
+    </points>
+    <box label="keytool" source="manual" occluded="0" xtl="545.23" ytl="222.94" xbr="1333.44" ybr="2189.53" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="testimage140.jpg" width="2496" height="2496">
+    <box label="keytool" source="manual" occluded="0" xtl="63.55" ytl="718.20" xbr="2353.74" ybr="2132.60" z_order="0">
+    </box>
+    <points label="keytool" source="manual" occluded="0" points="1880.81,1445.11;637.19,1637.78" z_order="0">
+    </points>
+  </image>
+  <image id="3" name="testimage160.jpg" width="2496" height="2496">
+    <points label="keytool" source="manual" occluded="0" points="1447.30,740.10;1127.63,1799.80" z_order="0">
+    </points>
+    <box label="keytool" source="manual" occluded="0" xtl="716.01" ytl="341.61" xbr="1710.03" ybr="2351.55" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="testimage170.jpg" width="2496" height="2496">
+    <points label="keytool" source="manual" occluded="0" points="755.42,783.89;1705.65,1361.91" z_order="0">
+    </points>
+    <box label="keytool" source="manual" occluded="0" xtl="234.33" ytl="472.98" xbr="2248.64" ybr="1812.94" z_order="0">
+    </box>
+  </image>
+</annotations>
