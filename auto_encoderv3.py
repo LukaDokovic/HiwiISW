@@ -34,7 +34,7 @@ def train_autoencoder(neurons):
     return end_time - start_time
 
 # Schleife über verschiedene Anzahlen von Neuronen und mehrere Läufe
-neuron_counts = list(range(10, 8000011, 1000000))
+neuron_counts = list(range(10, 5000011, 1000000))
 times = []
 runs = 5
 
